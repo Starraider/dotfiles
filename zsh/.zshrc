@@ -76,9 +76,10 @@ source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions git-flow-completion docker)
+plugins=(git zsh-autosuggestions git-flow-completion docker z osx)
 
 source $ZSH/oh-my-zsh.sh
+. $HOME/.zsh/z.sh
 
 # User configuration
 
@@ -106,6 +107,7 @@ export LANG=de_DE.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dir="ls -a -l -G"
+alias typoscript-lint="$HOME/.composer/vendor/bin/typoscript-lint"
 
 DEFAULT_USER=$(whoami)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
