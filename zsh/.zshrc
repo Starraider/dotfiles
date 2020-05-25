@@ -108,8 +108,8 @@ export LANG=de_DE.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dir="ls -a -l -G"
 alias typoscript-lint="$HOME/.composer/vendor/bin/typoscript-lint"
-alias code="/Applications/Visual Studio Code - Insiders.app//Contents/Resources/app/bin/code"
-alias vscextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
+alias 'vsc="/Applications/Visual Studio Code - Insiders.app//Contents/Resources/app/bin/code"' 
+alias vsc-extensions="vsc --list-extensions | xargs -L 1 echo vsc --install-extension"
 
 DEFAULT_USER=$(whoami)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
