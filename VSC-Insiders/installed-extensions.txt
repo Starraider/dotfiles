@@ -1,0 +1,47 @@
+vsc-extensions
+
+Date: 25.05.2020
+
+Installed extensions:
+
+vsc --install-extension adam-watters.vscode-color-pick
+vsc --install-extension alefragnani.project-manager
+vsc --install-extension apsislabs.mergetool-navigator
+vsc --install-extension benjaminkott.typo3-typoscript
+vsc --install-extension bigous.vscode-multi-line-tricks
+vsc --install-extension bradgashler.htmltagwrap
+vsc --install-extension CoenraadS.bracket-pair-colorizer-2
+vsc --install-extension cssho.vscode-svgviewer
+vsc --install-extension DavidAnson.vscode-markdownlint
+vsc --install-extension donjayamanne.githistory
+vsc --install-extension eamodio.gitlens
+vsc --install-extension EditorConfig.EditorConfig
+vsc --install-extension esbenp.prettier-vscode
+vsc --install-extension febley.typo3-fluid-snippets
+vsc --install-extension formulahendry.auto-close-tag
+vsc --install-extension formulahendry.auto-rename-tag
+vsc --install-extension GitHub.vscode-pull-request-github
+vsc --install-extension Gruntfuggly.todo-tree
+vsc --install-extension HookyQR.minify
+vsc --install-extension lacroixdavid1.vscode-format-context-menu
+vsc --install-extension lextudio.restructuredtext
+vsc --install-extension liximomo.sftp
+vsc --install-extension marcdomain.ignoreit
+vsc --install-extension mrmlnc.vscode-scss
+vsc --install-extension ms-azuretools.vscode-docker
+vsc --install-extension ms-python.python
+vsc --install-extension naumovs.color-highlight
+vsc --install-extension oderwat.indent-rainbow
+vsc --install-extension PKief.material-icon-theme
+vsc --install-extension pranaygp.vscode-css-peek
+vsc --install-extension ralffreit.typo3snippets
+vsc --install-extension redhat.vscode-yaml
+vsc --install-extension stylelint.vscode-stylelint
+vsc --install-extension thekalinga.bootstrap4-vscode
+vsc --install-extension tomoki1207.pdf
+vsc --install-extension vivaxy.vscode-conventional-commits
+vsc --install-extension vsls-contrib.codetour
+vsc --install-extension vsls-contrib.gistfs
+vsc --install-extension wayou.vscode-todo-highlight
+vsc --install-extension yzhang.markdown-all-in-one
+vsc --install-extension Zignd.html-css-class-completion
