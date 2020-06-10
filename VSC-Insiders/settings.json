@@ -1,58 +1,58 @@
 {
-    // Editor
-    "editor.fontFamily": "Fira Code, Consolas, monospace",
-    "editor.fontLigatures": true,
-    "editor.minimap.enabled": false,
-    "color-highlight.markerType": "dot-before",
-    "color-highlight.languages": ["*"],
-    "color-highlight.matchWords": true,
-    "editor.colorDecorators": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    // Workbench
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.titleScrollbarSizing": "large",
-    // Terminal
-    "terminal.integrated.fontFamily": "Fira Code, Consolas, monospace",
-    "terminal.integrated.cursorBlinking": true,
-    // Git
-    "git.path": "/usr/bin/git",
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "git.postCommitCommand": "sync",
-    "git.confirmSync": false,
-    "githubIssues.useBranchForIssues": "off",
-    "githubIssues.issueCompletionFormatScm": "fix: #${issueNumber} - ${issueTitle}",
-    "conventionalCommits.gitmoji": false,
-    // Gitlens
-    "gitlens.views.repositories.location": "gitlens",
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
-    // ToDo
-    "todohighlight.keywords": [
-        {
-          "text": "TODO:",
-          "color": "red",
-          "border": "1px solid rgba(188,80,80,0.6)",
-          "borderRadius": "2px",
-          "backgroundColor": "rgba(188,80,80,0.3)"
-        }
-    ],
-    "todo-tree.tree.showScanModeButton": false,
-    // gitignore it
-    "ignoreit.array": [
-        ".DS_Store",
-        "/node_modules/",
-        ".idea/",
-        "*.ld",
-        "/Quellen/",
-        "_notes/",
-    ],
-    //
-    "python.insidersChannel": "weekly",
-    "gitlens.views.repositories.files.layout": "list",
-    "color-highlight.markRuler": false
+  // Editor
+  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "color-highlight.markerType": "dot-before",
+  "color-highlight.languages": ["*"],
+  "color-highlight.matchWords": true,
+  "editor.colorDecorators": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.titleScrollbarSizing": "large",
+  // Terminal
+  "terminal.integrated.fontFamily": "Fira Code, Consolas, monospace",
+  "terminal.integrated.cursorBlinking": true,
+  // Git
+  "git.path": "/usr/bin/git",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "git.confirmSync": false,
+  "githubIssues.useBranchForIssues": "off",
+  "githubIssues.issueCompletionFormatScm": "fix: #${issueNumber} - ${issueTitle}",
+  "conventionalCommits.gitmoji": false,
+  // Gitlens
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  // ToDo
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid rgba(188,80,80,0.6)",
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(188,80,80,0.3)"
+    }
+  ],
+  "todo-tree.tree.showScanModeButton": false,
+  // gitignore it
+  "ignoreit.array": [
+    ".DS_Store",
+    "/node_modules/",
+    ".idea/",
+    "*.ld",
+    "/Quellen/",
+    "_notes/"
+  ],
+  //
+  "python.insidersChannel": "weekly",
+  "gitlens.views.repositories.files.layout": "list",
+  "color-highlight.markRuler": false
 }
