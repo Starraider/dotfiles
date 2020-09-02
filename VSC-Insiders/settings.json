@@ -42,17 +42,17 @@
     }
   ],
   "todo-tree.tree.showScanModeButton": false,
-  // gitignore it
-  "ignoreit.array": [
-    ".DS_Store",
-    "/node_modules/",
-    ".idea/",
-    "*.ld",
-    "/Quellen/",
-    "_notes/"
-  ],
   //
-  "python.insidersChannel": "weekly",
+  "python.insidersChannel": "off",
   "gitlens.views.repositories.files.layout": "list",
-  "color-highlight.markRuler": false
+  "color-highlight.markRuler": false,
+  "projectManager.git.ignoredFolders": [
+
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib"
+  ],
+  "extensions.ignoreRecommendations": false
 }
