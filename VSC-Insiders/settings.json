@@ -1,6 +1,6 @@
 {
   // Editor
-  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "editor.fontFamily": "FuraCode Nerd Font, FiraCode Nerd Font, Fira Code, Consolas, monospace",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "color-highlight.markerType": "dot-before",
@@ -14,7 +14,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.titleScrollbarSizing": "large",
   // Terminal
-  "terminal.integrated.fontFamily": "Fira Code, Consolas, monospace",
+  "terminal.integrated.fontFamily": "FuraCode Nerd Font, FiraCode Nerd Font, Fira Code, Consolas, monospace",
   "terminal.integrated.cursorBlinking": true,
   // Git
   "git.path": "/usr/bin/git",
