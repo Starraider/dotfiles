@@ -106,6 +106,9 @@ export LANG=de_DE.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export LS_COLORS="*.typoscript=33:fi=37"
+export EXA_COLORS="uu=36:gu=36:un=35:gn=35"
+
 alias dir='exa --header --long --all --git --group --icons -F --group-directories-first --color-scale --ignore-glob=".git|.DS_Store"'
 alias ls='exa --all --icons -F --group-directories-first --ignore-glob=".git|.DS_Store"'
 alias typoscript-lint="$HOME/.composer/vendor/bin/typoscript-lint"
