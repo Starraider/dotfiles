@@ -106,15 +106,15 @@ export LANG=de_DE.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dir="ls -a -l -G"
+alias dir="exa --header --long --all --git --group --icons -F --group-directories-first --color-scale -I .git"
+alias ls="exa --all --icons -F --group-directories-first -I .git"
 alias typoscript-lint="$HOME/.composer/vendor/bin/typoscript-lint"
 alias 'vsc="/Applications/Visual Studio Code - Insiders.app//Contents/Resources/app/bin/code"' 
 alias vsc-extensions="vsc --list-extensions | xargs -L 1 echo vsc --install-extension"
 alias mc=". /usr/local/Cellar/midnight-commander/4.8.24/libexec/mc/mc-wrapper.sh"
 alias backstop='docker run --rm -it -v $(pwd):/src backstopjs/backstopjs "$@" --config backstop.js'
 
-eval "$(zoxide init zsh)"
-
 DEFAULT_USER=$(whoami)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
