@@ -106,8 +106,8 @@ export LANG=de_DE.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dir="exa --header --long --all --git --group --icons -F --group-directories-first --color-scale -I .git"
-alias ls="exa --all --icons -F --group-directories-first -I .git"
+alias dir='exa --header --long --all --git --group --icons -F --group-directories-first --color-scale --ignore-glob=".git|.DS_Store"'
+alias ls='exa --all --icons -F --group-directories-first --ignore-glob=".git|.DS_Store"'
 alias typoscript-lint="$HOME/.composer/vendor/bin/typoscript-lint"
 alias 'vsc="/Applications/Visual Studio Code - Insiders.app//Contents/Resources/app/bin/code"' 
 alias vsc-extensions="vsc --list-extensions | xargs -L 1 echo vsc --install-extension"
