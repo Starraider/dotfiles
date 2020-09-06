@@ -95,6 +95,15 @@ export LANG=de_DE.UTF-8
 #   export EDITOR='mvim'
 # fi
 
+# zsh-completions
+
+  if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+  fi
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -120,4 +129,7 @@ alias backstop='docker run --rm -it -v $(pwd):/src backstopjs/backstopjs "$@" --
 DEFAULT_USER=$(whoami)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+
+source /Users/sven/.config/broot/launcher/bash/br
 
