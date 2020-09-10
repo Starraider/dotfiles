@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "git",
         "zsh",
-        "VSC"
+        "VSC",
+        "nnn"
     ]
 }
