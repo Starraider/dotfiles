@@ -109,7 +109,8 @@ export LANG=de_DE.UTF-8
 # export EDITOR='mcedit'
 
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)$"
-export NNN_PLUG='f:finder;o:fzopen;d:diffs;v:imgview'
+export NNN_PLUG='f:fd;o:fzopen;d:diffs;v:imgview'
+export NNN_BMS='d:~/Documents;p:~/Documents/Projekte/;D:~/Downloads/;u:~/;.:~/dotfiles/'
 
 n ()
 {
