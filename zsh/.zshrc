@@ -83,6 +83,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Hidden files on top
+export LC_COLLATE="C"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -106,8 +109,10 @@ export LANG=de_DE.UTF-8
 
 # nnn configuration
 
-# export EDITOR='mcedit'
+export EDITOR='mcedit'
 
+export NNN_COLORS='6532'
+export NNN_TRASH=1
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)$"
 export NNN_PLUG='f:fd;o:fzopen;d:diffs;v:imgview'
 export NNN_BMS='d:~/Documents;p:~/Documents/Projekte/;D:~/Downloads/;u:~/;.:~/dotfiles/'
@@ -168,4 +173,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 source /Users/sven/.config/broot/launcher/bash/br
+
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
