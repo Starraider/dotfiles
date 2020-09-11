@@ -177,3 +177,7 @@ source /Users/sven/.config/broot/launcher/bash/br
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# jenv
+export JENV_ROOT=/usr/local/opt/jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
