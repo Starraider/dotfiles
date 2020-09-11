@@ -11,13 +11,14 @@
 . "$(dirname "$0")"/.nnn-plugin-helper
 
 printf "Examples:\n"
-printf "  fd pattern -0\n"
-printf "  fd -d 2 -S +100M -0\n"
+printf "  fd pattern\n"
+printf "  fd .jpg\n"
+printf "  fd -d 2 -S +100M\n"
 
 printf "pattern: "
-read -r cmd
+read -r pattern
 
-if ! [ -z "$cmd" ]; then
+if ! [ -z "$pattern" ]; then
     printf "%s" "+l" > "$NNN_PIPE"
-    eval "fd $cmd -0" > "$NNN_PIPE"
+    eval "fd -HI $pattern -0" > "$NNN_PIPE"
 fi
