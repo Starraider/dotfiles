@@ -8,7 +8,7 @@
   "color-highlight.matchWords": true,
   "editor.colorDecorators": false,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
@@ -54,5 +54,27 @@
     "test",
     ".haxelib"
   ],
-  "extensions.ignoreRecommendations": false
+  // Java
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home"
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home",
+      "default": true
+    }
+  ],
+  "extensions.ignoreRecommendations": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.formatOnSaveMode": "modifications"
 }
