@@ -18,3 +18,6 @@
 	required = true
 [hub]
 	protocol = https
+[alias]
+	list-subtrees = !"for i in $(git log | grep git-subtree-dir | sed -e 's/^.*: //g' | uniq); do test -d $i && echo $i; done"
+	list-submodules = submodule--helper list
