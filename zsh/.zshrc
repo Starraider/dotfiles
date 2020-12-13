@@ -15,6 +15,9 @@ export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
 export LDFLAGS="-L/usr/local/opt/bzip2/lib"
 export CPPFLAGS="-I/usr/local/opt/bzip2/include"
 
+# Poetry for Python
+export PATH="$HOME/.poetry/bin:$PATH"
+
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
@@ -93,7 +96,7 @@ source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions git-flow-completion docker z osx)
+plugins=(git zsh-autosuggestions git-flow-completion docker z osx poetry)
 
 source $ZSH/oh-my-zsh.sh
 . $HOME/.zsh/z.sh
@@ -362,3 +365,5 @@ if [ -z $zic_custom_binding ]; then
   zic_custom_binding='^I'
 fi
 bindkey "${zic_custom_binding}" zic-completion
+
+
