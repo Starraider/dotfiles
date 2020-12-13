@@ -24,6 +24,9 @@ fpath=(~/.zsh $fpath)
 
 autoload -Uz compinit && compinit
 
+# Visual Studio Code
+export PATH="$PATH:/Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/bin"
+
 export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
